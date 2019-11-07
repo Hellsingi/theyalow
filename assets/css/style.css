@@ -5,12 +5,12 @@
 
 /* header  */
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    height: 112px;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 112px;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -77,4 +77,45 @@
   font-size: 17px;
   color: #a78708;
   font-weight: 600;
+}
+.welcome-section-wrapper {
+  background: url(../img/header-bg.png) no-repeat;
+  background-size: cover;
+  padding-top: 164px;
+  padding-bottom: 67px;
+  margin-top: -112px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.welcome-section {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+.welcome-section video {
+  margin-left: 5px;
+  max-width: 557px;
+}
+.welcome-section h1 {
+  text-align: center;
+  font-family: "Asap";
+  font-size: 62px;
+  text-transform: uppercase;
+  margin-bottom: 29px;
+  margin-left: 41px;
+  letter-spacing: 1px;
+  color: #fff;
+  font-weight: 100;
+}
+.welcome-span {
+  color: #f5c506;
+}
+.welcome-section-wrapper button {
+  width: 32px;
+  height: 57px;
+  border: none;
+  background: #c5a00c;
+  margin-bottom: 7px;
+  padding-right: 9px;
 }
